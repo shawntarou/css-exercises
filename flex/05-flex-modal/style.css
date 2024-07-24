@@ -20,7 +20,30 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 20px;
 }
+
+.contents {
+
+}
+
+.upper {
+  text-wrap: wrap;
+  align-items: flex-start;
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text {
+padding-bottom: 15px;
+}
+
+.lower {
+  padding-left: 62px;
+}
+
 
 .icon {
   color: royalblue;
@@ -48,6 +71,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-left: auto;
 }
 
 button {
